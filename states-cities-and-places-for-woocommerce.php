@@ -92,9 +92,9 @@ if(in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_o
             $fields['state']['priority'] = 70;
             $fields['city']['priority'] = 80;
             /* translators: Translate it to the name of the State level territory division, e.g. "State", "Province",  "Department" */
-            $fields['state']['label'] = __('State', 'states-cities-and-places-for-woocommerce');
+            // $fields['state']['label'] = __('State', 'states-cities-and-places-for-woocommerce');
             /* translators: Translate it to the name of the City level territory division, e.g. "City, "Municipality", "District" */
-            $fields['city']['label'] = __('City', 'states-cities-and-places-for-woocommerce');
+            // $fields['city']['label'] = __('City', 'states-cities-and-places-for-woocommerce');
 
             return $fields;
         }
